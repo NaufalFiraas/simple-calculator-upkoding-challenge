@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.container {
+  width: 350px;
+  height: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 120px auto;
+  border: 2px solid #777;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #00000080;
+  background: linear-gradient(to bottom, rgb(53, 53, 211), rgb(111, 111, 255));
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.result-screen {
+  width: 90%;
+  border: 2px solid #555;
+  box-shadow: 2px 2px 3px #33333380;
+  border-radius: 10px;
+  background-color: #ffffff80;
+  text-align: end;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #33333380;
+  transition: all 0.3s ease;
+}
+
+.clear {
+  background-color: salmon;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.clear:hover {
+  background-color: #f36050;
+}
+
+.numbers {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.operator {
+  background-color: #777;
+}
+
+.operator:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.result {
+  background-color: rgba(0, 255, 0, 0.534);
+}
+
+.result:hover {
+  background-color: lime;
+}
+
+.numbers .btn-numbers {
+  margin-bottom: 5px;
+}
